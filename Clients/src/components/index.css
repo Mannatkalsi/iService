@@ -1,0 +1,60 @@
+.task-list{
+  position: relative;
+}
+.search input {
+  margin-right: 20px;
+}
+.title-input{
+  height: 20px;
+}
+.task-table{
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+}
+
+.task-table th,
+.task-table td {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+}
+
+.modal{
+  position: absolute;
+  width: 40vw;
+  background:#ffd700;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  left: calc(50% - 150px);
+  top: 100px;
+  z-index: 10;
+  padding: 10px;
+}
+.modal-header{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  height: 30px;
+  line-height: 30px;
+  width:100%;
+  justify-content: space-between;
+}
+.modal-header div:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+  line-height:15px;
+}
+
+.modal-list{
+  position: absolute;
+  width: 40vw;
+  background:#61dafb;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  left: calc(50% - 150px);
+  top: 100px;
+  z-index: 10;
+  padding: 10px;
+}

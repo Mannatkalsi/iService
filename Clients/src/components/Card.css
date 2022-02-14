@@ -1,0 +1,38 @@
+.expert{
+    width: 200px;
+}
+.expert img{
+    margin-top: 100px;
+    padding: 5px;
+    vertical-align: middle;
+    height: auto;
+    width: 200px;
+}
+.expert img:hover{
+    width: 300px;
+}
+.expert-name {
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+.expert-position {
+    font-size: medium;
+    color: white;
+}
+.expert-description {
+    font-size: medium;
+    color: white;
+}
+.expert-rating {
+    font-weight: bold;
+    color: white;
+}
+.column {
+    flex: 20%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    position: relative;
+}

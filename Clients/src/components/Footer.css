@@ -1,0 +1,44 @@
+.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #15b2d3;
+    font-size: 1.2em;
+  }
+  
+  .footer li {
+    float: left;
+  }
+  
+  .footer-social img {
+    float: right;
+    display: block;
+    padding: 10px 10px;
+    width: 35px;
+    margin-top: 12px;
+  }
+  
+  .footer li p {
+    display: block;
+    color: rgb(255, 250, 250);
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-style: italic;
+  }
+  
+  .email-sigup-button {
+    font-size: 14px;
+    padding: 10.2px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-style: italic;
+  }
+  
+  .email-sigup-input {
+    margin-top: 20px;
+    width: 160px;
+    height: 35px;
+    text-align: center;
+  }

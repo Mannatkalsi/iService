@@ -1,0 +1,14 @@
+.expert-heading {
+    text-align: center;
+    font-style: oblique;
+    font-weight:bold;
+    color: white ;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50vh;
+}

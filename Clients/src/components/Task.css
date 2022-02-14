@@ -1,0 +1,32 @@
+/* set card row to 3 (width 1/3 of div) */
+.column {
+    
+    width: 33%;
+    padding: 0 10px;
+}
+
+.column:hover {
+    cursor: pointer;
+}
+
+/* requester card style */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #ffd700;
+    max-height: 305px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+/* limit width of row and center */
+.Task{
+    width: 800px;
+    margin: auto !important;
+}
+
+.close{
+    color:red !important;
+    text-align:right;
+}
